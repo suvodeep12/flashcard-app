@@ -1,9 +1,9 @@
 // src/components/FlashCardDeck.tsx
 
 import React, { useState } from "react";
-import FlashCard from "./FlashCard";
-import { FlashCardProps } from "../types/Flashcard";
-import "./index.css";
+import FlashCard from "../FlashCard/FlashCard";
+import { FlashCardProps } from "../../types/Flashcard";
+import "./FlashCardDeck.css"
 
 interface FlashCardDeckProps {
   flashCards: FlashCardProps[];

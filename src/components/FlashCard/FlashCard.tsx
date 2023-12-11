@@ -1,8 +1,8 @@
 // src/components/FlashCard.tsx
 
 import React, { useState } from "react";
-import { FlashCardProps } from "../types/Flashcard";
-import "./index.css";
+import { FlashCardProps } from "../../types/Flashcard";
+import "./FlashCard.css"
 
 const FlashCard: React.FC<FlashCardProps> = ({ id, question, answer }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -30,3 +30,5 @@ const FlashCard: React.FC<FlashCardProps> = ({ id, question, answer }) => {
 };
 
 export default FlashCard;
+
+// TODO: Fix rotating animation
